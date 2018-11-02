@@ -1,5 +1,5 @@
 # Information
-This is a Fork which includes FCMController.
+This is a Fork (EdwinHoksberg/php-fcm) that includes FCMController.
 
 You can use the function sendNotification() to send a simple notification.
 
