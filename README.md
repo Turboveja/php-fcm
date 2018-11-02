@@ -33,6 +33,36 @@ And:
   }
 ```
 ## Quickstart
+
+You can use the original code to send custom notifications, or the fork method to send simply notifications with the parameters
+
+Fork function:
+```php
+$apiKey = 'Firebase key code';
+
+$title = 'Notification title';
+
+$body = 'Notification body'; 
+
+$data = [
+  'extra_data' => '',
+  'example_id' => '',
+];
+
+$topics = [
+  'topic1', 'topic2' //optional
+];
+
+$recipients = [
+  'recipient1', 'recipient2' //optional
+];
+
+//Send this notification
+$fcm = (new FCMController)->sendNotification($apiKey, $title, $body, $data, $topics, $recipients);
+
+```
+
+Original implementation:
 ```php
 // Instantiate the client with the project api_token and sender_id.
 $client = new \Fcm\FcmClient($apiToken, $senderId);
