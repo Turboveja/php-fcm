@@ -8,10 +8,26 @@ A PHP library for sending Firebase Cloud Messages and managing user topic subscr
 
 ## Installation
 Installation with composer:
-```bash
-composer require edwinhoksberg/php-fcm
-```
 
+composer require edwinhoksberg/php-fcm
+
+
+Installation with composer:
+Add to composer.json file:
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/turboveja/php-fcm"
+    }
+  ]
+```
+```bash
+And:
+  "require": {
+    "edwinhoksberg/php-fcm": "dev-master",
+  }
+```
 ## Quickstart
 ```php
 // Instantiate the client with the project api_token and sender_id.
