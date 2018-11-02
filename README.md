@@ -15,6 +15,7 @@ composer require edwinhoksberg/php-fcm
 Installation with composer:
 Add to composer.json file:
 
+```bash
   "repositories": [
     {
       "type": "vcs",
@@ -22,8 +23,11 @@ Add to composer.json file:
     }
   ]
 ```
-```bash
+
 And:
+
+
+```bash
   "require": {
     "edwinhoksberg/php-fcm": "dev-master",
   }
