@@ -1,3 +1,8 @@
+# Information
+This is a Fork which includes FCMController.
+
+You can use the function sendNotification() to send a simple notification.
+
 # PHP-FCM [![Build Status](https://travis-ci.org/EdwinHoksberg/php-fcm.svg?branch=master)](https://travis-ci.org/EdwinHoksberg/php-fcm) [![Coverage Status](https://coveralls.io/repos/github/EdwinHoksberg/php-fcm/badge.svg?branch=master)](https://coveralls.io/github/EdwinHoksberg/php-fcm?branch=master) [![Documentation](https://readthedocs.org/projects/php-fcm/badge/?version=latest)](https://php-fcm.readthedocs.io/en/latest/)
 A PHP library for sending Firebase Cloud Messages and managing user topic subscriptions, device groups and devices.
 
